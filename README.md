@@ -8,11 +8,17 @@ A Model Context Protocol (MCP) server built with Python and **FastMCP** that all
 
 This project provides an intelligent financial tracker backend accessible via MCP tools. With this MCP server, an AI assistant can manage your personal expenses directly through conversational prompts.
 
+### Available Resources:
+- **`config://categories`**: Provides a predefined JSON mapping of categories and sub-categories for both income and expenses.
+
 ### Available Tools:
 - **`add_expense`**: Add a new expense with amount, category, optional description, and optional date.
 - **`get_expenses`**: List and filter expenses by category, month, or year.
-- **`get_summary`**: Generate a monthly summary grouped by spending categories.
 - **`delete_expense`**: Remove an expense record by its unique ID.
+- **`add_income`**: Add a new income record (e.g., Salary, Investments).
+- **`get_incomes`**: List and filter income records.
+- **`delete_income`**: Remove an income record by its unique ID.
+- **`get_summary`**: Generate a monthly summary grouped by spending and income categories.
 
 ---
 

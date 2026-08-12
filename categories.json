@@ -1,0 +1,14 @@
+{
+  "income": {
+    "Salary": ["Base", "Bonus", "Overtime"],
+    "Investments": ["Dividends", "Interest", "Capital Gains"],
+    "Other": ["Gifts", "Refunds"]
+  },
+  "expense": {
+    "Housing": ["Rent", "Mortgage", "Maintenance"],
+    "Food": ["Groceries", "Dining Out", "Snacks"],
+    "Transportation": ["Gas", "Transit", "Maintenance"],
+    "Utilities": ["Electricity", "Water", "Internet"],
+    "Entertainment": ["Movies", "Games", "Subscriptions"]
+  }
+}
